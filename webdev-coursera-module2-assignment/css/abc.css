@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+/*.row{
+	width: 100%;
+	box-sizing: border-box;
+}*/
+#hd{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border: 1px solid black;
+
+}
+
+
+
+/*********DESKTOP DEVICES*********/
+@media(min-width: 992px){
+.col-ld-3{
+	position: relative;
+	width: 32%;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 21px;
+	margin: 5px;
+	background-color: grey;
+}
+}
+/*********TABLET DEVICES*********/
+@media(min-width: 768px) and (max-width: 991px){
+.col-md-6{
+	position: relative;
+	width: 48%;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 21px;
+	margin: 5px;
+    background-color: grey;
+}
+.col-md-12{
+	position: relative;
+	width: 97%;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 21px;
+	margin: 5px;
+	background-color: grey;
+}
+}
+/*********MOBILE DEVICES*********/
+@media(max-width: 767px){
+.col-sd-12{
+	position: relative;
+	width: 99%;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 21px;
+	margin: 5px;
+	background-color: grey;
+}
+}
